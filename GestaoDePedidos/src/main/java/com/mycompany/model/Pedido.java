@@ -42,6 +42,14 @@ public class Pedido {
         this.valorDesconto = valorDesconto;
     }
     
+    public double getValorImposto() {
+        return valorImposto;
+    }
+
+    public void setValorImposto(double valorImposto) {
+        this.valorImposto = valorImposto;
+    }
+    
     public double getValorFinal() {
         return valorFinal;
     }
