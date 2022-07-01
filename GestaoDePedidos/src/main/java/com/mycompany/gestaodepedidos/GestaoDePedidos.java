@@ -56,6 +56,9 @@ public class GestaoDePedidos {
             System.out.println(imposto.getTipo() + " " + imposto.getPorcentagem() + "% " + imposto.getValor());
         System.out.println("---------------------------------------------------");
         System.out.println("R$ " + pedido001.getValorImposto());
+        
+        System.out.println("R$ " + pedido001.getValorFinal());
+        
             
         
         
