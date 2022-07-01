@@ -1,5 +1,13 @@
 package com.mycompany.model;
 
+import com.mycompany.chainofresponsibility.IMetodoDescontoHandler;
+import com.mycompany.chainofresponsibility.CategoriaProdutoDesconto;
+import com.mycompany.chainofresponsibility.IncentivoDesconto;
+import com.mycompany.chainofresponsibility.IntervaloDataDesconto;
+import com.mycompany.chainofresponsibility.IImpostoHandler;
+import com.mycompany.chainofresponsibility.ISSImposto;
+import com.mycompany.chainofresponsibility.ICMSImposto;
+
 
 public class PedidoService {
     
